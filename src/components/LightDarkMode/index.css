@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-bg-container{
+    background-color:#ffffff ;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    border-radius: 9px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.heading{
+    font-weight: bold;
+    font-family: roboto;
+}
+.btn{
+    padding: 5px;
+    font-size: 12px;
+}
+.dark-mode{
+background-color: #000000;
+color: #ffffff;
+}
+
+.light-mode{
+    color: black;
+    background-color: #ffffff;
+     border: 1px solid #000000;
+}
